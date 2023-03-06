@@ -14,8 +14,8 @@ public class JatibocaTeste {
         do {
             System.out.println("O que deseja fazer: ");
             System.out.println("1 - Entrada de Estoque");
-            System.out.println("2 - Saï¿½da de Estoque");
-            System.out.println("3 - Transferï¿½ncia de Estoque");
+            System.out.println("2 - Saida de Estoque");
+            System.out.println("3 - Transferenncia de Estoque");
             System.out.println("4 - Consulta Estoque");
             System.out.println("5 - Finalizar ");
 
@@ -25,7 +25,7 @@ public class JatibocaTeste {
 
                 if (opcao != 1 && opcao != 2 && opcao != 3 && opcao != 4 && opcao != 5) {
 
-                    System.out.println("Escolha apenas entre os nï¿½meros 1, 2, 3, 4 e 5. ");
+                    System.out.println("Escolha apenas entre os numeros 1, 2, 3, 4 e 5. ");
                     escolha = ler.nextInt();
                 }
 
@@ -36,7 +36,7 @@ public class JatibocaTeste {
 
                 switch (opcao) {
                     case 1:
-                        System.out.println("Opï¿½ï¿½o -> 1");
+                        System.out.println("Opicao -> 1");
                         System.out.println("Qual empresa:");
                         System.out.println("1 - Jatiboca");
                         System.out.println("2 - Pontal");
@@ -45,7 +45,7 @@ public class JatibocaTeste {
                         do {
                             if (escolha != 1 && escolha != 2) {
 
-                                System.out.println("Escolha apenas entre os nï¿½meros 1 e 2 ");
+                                System.out.println("Escolha apenas entre os numeros 1 e 2 ");
                                 System.out.println("Qual empresa:");
                                 System.out.println("1 - Jatiboca");
                                 System.out.println("2 - Pontal");
@@ -54,17 +54,17 @@ public class JatibocaTeste {
 
                         } while (escolha != 1 && escolha != 2);
 
-                        System.out.println("Opï¿½ï¿½o -> " + escolha);
+                        System.out.println("Opcao -> " + escolha);
 
                         if (escolha == 1) {
-                            System.out.println("Qual a quantidade de Entrada de aï¿½ï¿½car em Jatiboca -> ");
+                            System.out.println("Qual a quantidade de Entrada de acucar em Jatiboca -> ");
                             quantidadeEntrada = ler.nextInt();
 
                             do {
                                 if (quantidadeEntrada <= 0) {
 
-                                    System.out.println("Desculpa, mas esse valor nï¿½o ï¿½ aceitavel");
-                                    System.out.println("Digite novamente, qual a quantidade de Entrada de aï¿½ï¿½car em Jatiboca -> ");
+                                    System.out.println("Desculpa, mas esse valor nao e aceitavel");
+                                    System.out.println("Digite novamente, qual a quantidade de Entrada de acucar em Jatiboca -> ");
                                     quantidadeEntrada = ler.nextInt();
                                 }
 
@@ -76,13 +76,13 @@ public class JatibocaTeste {
                             break;
                         } else {
 
-                            System.out.println("Qual a quantidade de Entrada de aï¿½ï¿½car em Pontal -> ");
+                            System.out.println("Qual a quantidade de Entrada de acucar em Pontal -> ");
                             quantidadeEntrada = ler.nextInt();
 
                             do {
                                 if (quantidadeEntrada <= 0) {
 
-                                    System.out.println("Desculpa, mas esse valor nï¿½o ï¿½ aceitavel");
+                                    System.out.println("Desculpa, mas esse valor nao e aceitavel");
                                     System.out.println("Digite novamente, qual a quantidade de Entrada de aï¿½ï¿½car em Pontal -> ");
                                     quantidadeEntrada = ler.nextInt();
                                 }
@@ -97,7 +97,7 @@ public class JatibocaTeste {
                         break;
 
                     case 2:
-                        System.out.println("Opï¿½ï¿½o -> 2");
+                        System.out.println("Opicao -> 2");
                         System.out.println("Qual empresa:");
                         System.out.println("1 - Jatiboca");
                         System.out.println("2 - Pontal");
@@ -107,7 +107,7 @@ public class JatibocaTeste {
                         do {
                             if (escolha != 1 && escolha != 2) {
 
-                                System.out.println("Escolha apenas entre os nï¿½meros 1 e 2 ");
+                                System.out.println("Escolha apenas entre os numeros 1 e 2 ");
                                 System.out.println("Qual empresa:");
                                 System.out.println("1 - Jatiboca");
                                 System.out.println("2 - Pontal");
@@ -116,17 +116,17 @@ public class JatibocaTeste {
 
                         } while (escolha != 1 && escolha != 2);
 
-                        System.out.println("Opï¿½ï¿½o -> " + escolha);
+                        System.out.println("Opicao -> " + escolha);
 
                         if (escolha == 1) {
-                            System.out.println("Qual a quantidade de Saï¿½da de aï¿½ï¿½car em Jatiboca -> ");
+                            System.out.println("Qual a quantidade de Saida de acucar em Jatiboca -> ");
                             quantidadeEntrada = ler.nextInt();
 
                             do {
                                 if (quantidadeEntrada > estoqueAtualJatiboca) {
 
-                                    System.out.println("Desculpa, mas esse valor nï¿½o ï¿½ aceitavel");
-                                    System.out.println("Digite novamente, qual a quantidade de Saï¿½da de aï¿½ï¿½car em Jatiboca -> ");
+                                    System.out.println("Desculpa, mas esse valor nao e aceitavel");
+                                    System.out.println("Digite novamente, qual a quantidade de Saida de acucar em Jatiboca -> ");
                                     quantidadeEntrada = ler.nextInt();
                                 }
 
@@ -138,14 +138,14 @@ public class JatibocaTeste {
                             break;
                         } else {
 
-                            System.out.println("Qual a quantidade de Saï¿½da de aï¿½ï¿½car em Pontal -> ");
+                            System.out.println("Qual a quantidade de SSaida de acucar em Pontal -> ");
                             quantidadeEntrada = ler.nextInt();
 
                             do {
                                 if (quantidadeEntrada > estoqueAtualPontal) {
 
-                                    System.out.println("Desculpa, mas esse valor nï¿½o ï¿½ aceitavel");
-                                    System.out.println("Digite novamente, qual a quantidade de Saï¿½da de aï¿½ï¿½car em Pontal -> ");
+                                    System.out.println("Desculpa, mas esse valor nao e aceitavel");
+                                    System.out.println("Digite novamente, qual a quantidade de Saida de acucar em Pontal -> ");
                                     quantidadeEntrada = ler.nextInt();
                                 }
 
@@ -159,7 +159,7 @@ public class JatibocaTeste {
                         break;
 
                     case 3:
-                        System.out.println("Opï¿½ï¿½o -> 3");
+                        System.out.println("Opicao -> 3");
                         System.out.println("Qual empresa:");
                         System.out.println("1 - Jatiboca");
                         System.out.println("2 - Pontal");
@@ -169,7 +169,7 @@ public class JatibocaTeste {
                         do {
                             if (escolha != 1 && escolha != 2) {
 
-                                System.out.println("Escolha apenas entre os nï¿½meros 1 e 2 ");
+                                System.out.println("Escolha apenas entre os numeros 1 e 2 ");
                                 System.out.println("Qual empresa:");
                                 System.out.println("1 - Jatiboca");
                                 System.out.println("2 - Pontal");
@@ -178,25 +178,25 @@ public class JatibocaTeste {
 
                         } while (escolha != 1 && escolha != 2);
 
-                        System.out.println("Opï¿½ï¿½o -> " + escolha);
+                        System.out.println("Opicao -> " + escolha);
 
                         if (escolha == 1) {
 
-                            System.out.println("Qual a quantidade de aï¿½ï¿½car para a transferï¿½ncia de - Jatiboca para Pontal -> ");
+                            System.out.println("Qual a quantidade de acucar para a transferencia de - Jatiboca para Pontal -> ");
                             quantidadeTransferencia = ler.nextInt();
 
                             do {
                                 if (quantidadeTransferencia > estoqueAtualJatiboca || quantidadeTransferencia < 0) {
 
-                                    System.out.println("Impossï¿½vel transferir de Jatiboca para Pontal, estoque insuficiente ou esse valor nï¿½o ï¿½ aceitavel!");
-                                    System.out.println("Informe porfavor, qual a quantidade de aï¿½ï¿½car para a transferï¿½ncia de - Jatiboca para Pontal ->");
+                                    System.out.println("Impossivel transferir de Jatiboca para Pontal, estoque insuficiente ou esse valor nao e aceitavel!");
+                                    System.out.println("Informe porfavor, qual a quantidade de acucar para a transferencia de - Jatiboca para Pontal ->");
                                     quantidadeTransferencia = ler.nextInt();
 
                                 }
 
                             } while (quantidadeTransferencia > estoqueAtualJatiboca);
 
-                            System.out.println("Transferï¿½ncia realizada com sucesso!");
+                            System.out.println("Transferencia realizada com sucesso!");
 
                             estoqueAtualPontal += quantidadeTransferencia;
                             estoqueAtualJatiboca -= quantidadeTransferencia;
@@ -208,21 +208,21 @@ public class JatibocaTeste {
 
                         } else {
 
-                            System.out.println("Qual a quantidade de aï¿½ï¿½car para a transferï¿½ncia de aï¿½ï¿½car - Pontal para Jatiboca -> ");
+                            System.out.println("Qual a quantidade de acucar para a transferencia de acucar - Pontal para Jatiboca -> ");
                             quantidadeTransferencia = ler.nextInt();
 
                             do {
                                 if (quantidadeTransferencia > estoqueAtualPontal || quantidadeTransferencia < 0) {
 
-                                    System.out.println("Impossï¿½vel transferir de Pontal para Jatiboca, estoque insuficiente ou esse valor nï¿½o ï¿½ aceitavel!!");
-                                    System.out.println("Informe porfavor, qual a quantidade de aï¿½ï¿½car para a transferï¿½ncia de - Pontal para Jatiboca ->");
+                                    System.out.println("Impossivel transferir de Pontal para Jatiboca, estoque insuficiente ou esse valor nao e aceitavel!!");
+                                    System.out.println("Informe porfavor, qual a quantidade de acucar para a transferencia de - Pontal para Jatiboca ->");
                                     quantidadeTransferencia = ler.nextInt();
 
                                 }
 
                             } while (quantidadeTransferencia > estoqueAtualPontal);
 
-                            System.out.println("Transferï¿½ncia realizada com sucesso!");
+                            System.out.println("Transferencia realizada com sucesso!");
 
                             estoqueAtualJatiboca += quantidadeTransferencia;
                             estoqueAtualPontal -= quantidadeTransferencia;
@@ -234,7 +234,7 @@ public class JatibocaTeste {
                         }
 
                     case 4:
-                        System.out.println("Opï¿½ï¿½o -> 4");
+                        System.out.println("Opicao -> 4");
 
                         System.out.println("Estoque Atualizado em Pontal -> " + estoqueAtualPontal + " kg");
                         System.out.println("Estoque Atualizado em Jatiboca -> " + estoqueAtualJatiboca + " kg");
@@ -246,7 +246,7 @@ public class JatibocaTeste {
 
             }
 
-            System.out.println("Opï¿½ï¿½o -> 5");
+            System.out.println("Opicao -> 5");
             System.out.println("Bom dia e um bom trabalho !!!");
         } while (opcao != 5);
 
